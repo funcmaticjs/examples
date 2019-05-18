@@ -1,0 +1,24 @@
+{
+  "name": "examples-helloworld",
+  "version": "0.0.1",
+  "description": "Examples that demonstrate the use of Funcmatic for creating web application backends with AWS Lambda.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Daniel Jhin Yoo <danieljyoo@gmail.com> (https://github.com/danieljyoo)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/funcmaticjs/examples.git"
+  },
+  "dependencies": {
+    "@funcmaticjs/funcmatic": "0.0.1"
+  },
+  "devDependencies": {
+    "jest": "^24.8.0"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  }
+}
